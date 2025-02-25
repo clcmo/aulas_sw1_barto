@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <?php
     if (isset($_POST['nome'])) {
       $nome = htmlspecialchars($_POST['nome']); // Proteção contra XSS 
     } else {
-      $nome = "visitante!"; // Mensagem padrão caso o nome não seja fornecido
+      $nome = "visitante"; // Mensagem padrão caso o nome não seja fornecido
     }
   ?>
 <head>
